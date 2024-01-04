@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Download the prerequisites
 
-Things you may want to cover:
+- node js 
+- yarn
+- sqlite3 
+- rubyinstaller
 
-* Ruby version
+Run the command 
+- gem install sqlite3
+- gem install rails 
 
-* System dependencies
+To create a new project 
+- rails new <project_name>
 
-* Configuration
+Navigate to the directory and run
+- rails server
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To create new ocntroller 
+- rails new <controller_name> <action>
