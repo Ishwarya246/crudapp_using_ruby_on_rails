@@ -19,3 +19,6 @@ Navigate to the directory and run
 
 To create new controller 
 - rails generate controller <controller_name> <action>
+
+To create a new model ie table 
+- rails generate model <model_name> <attribute>:<datatype>
