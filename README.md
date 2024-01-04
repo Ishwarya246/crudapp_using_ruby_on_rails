@@ -17,5 +17,5 @@ To create a new project
 Navigate to the directory and run
 - rails server
 
-To create new ocntroller 
-- rails new <controller_name> <action>
+To create new controller 
+- rails generate controller <controller_name> <action>
