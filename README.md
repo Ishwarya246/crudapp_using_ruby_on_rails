@@ -18,7 +18,15 @@ Navigate to the directory and run
 - rails server
 
 To create new controller 
-- rails generate controller <controller_name> <action>
+- rails generate controller controller_name action
 
 To create a new model ie table 
-- rails generate model <model_name> <attribute>:<datatype>
+- rails generate scaffold model_name attribute: datatype
+
+To migrating the model into schema 
+- rails db:migrate
+
+To delete a table 
+- rails d model modelname
+
+
